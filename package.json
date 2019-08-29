@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:Fair-Exchange/bitcore-message-safecoin.git"
+    "url": "git+https://github.com/Fair-Exchange/bitcore-message-safecoin.git"
   },
   "dependencies": {
-    "bitcore-lib-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-lib-safecoin"
+    "bitcore-lib-safecoin": "git+https://github.com/Fair-Exchange/bitcore-lib-safecoin"
   },
   "devDependencies": {
     "bitcore-build-safecoin": "git+ssh://git@github.com:bitcore-build-safecoin",
