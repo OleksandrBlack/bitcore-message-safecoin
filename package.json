@@ -1,7 +1,7 @@
 {
   "name": "bitcore-message-safecoin",
   "version": "1.0.2",
-  "description": "Zcash Messages for Bitcore",
+  "description": "Safecoin Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,14 @@
     "coverage": "gulp coverage",
     "build": "gulp"
   },
+  "contributors": [
+    {
+      "name": "OleksandrBlack"
+    },
+    {
+      "name": "Aayanl"
+    }
+  ],
   "keywords": [
     "safecoin",
     "bitcore",
@@ -20,13 +28,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/OleksandrBlack/bitcore-message-safecoin.git"
+    "url": "https://github.com/OleksandrBlack/bitcore-message-safecoin.git"
   },
   "dependencies": {
-    "bitcore-lib-safecoin": "git://github.com/OleksandrBlack/bitcore-lib-safecoin#master2"
+    "bitcore-lib-safecoin": "OleksandrBlack/bitcore-lib-safecoin"
   },
   "devDependencies": {
-    "bitcore-build-safecoin": "git://github.com/OleksandrBlack/bitcore-build-safecoin#master2",
+    "bitcore-build-safecoin": "OleksandrBlack/bitcore-build-safecoin",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
